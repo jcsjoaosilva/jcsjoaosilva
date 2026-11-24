@@ -1,13 +1,25 @@
-# Checkout — Experimentos de integração de pagamentos
+# Checkout-Payzen — Integração experimental de pagamentos
 
-**Tipo:** protótipo técnico de fluxo de checkout e integração de formulários de pagamento.
+**Categoria:** Checkout / integração com gateway  
+**Visibilidade do código:** Privado
 
-## Propósito
-Investigar comportamentos da experiência de pagamento, configuração de formulários e tratamento de estados de transação em ambiente de teste.
+## Objetivo
+Investigar a experiência de pagamento e a atualização dinâmica de configurações de um formulário PayZen Krypton em ambiente de teste.
 
-## Competências demonstradas
-- Integração de soluções de pagamento.
-- Análise da jornada de checkout.
-- Validação funcional de fluxos e tratamento de erros.
+## Funcionalidades documentadas
+- Formulário de pagamento com chave pública e **formToken** configuráveis.
+- Troca de **formToken** em tempo real, sem reinjetar o script, via `KR.setFormConfig()`.
+- Feedback de transação: sucesso ou erro.
+- Fluxos de cartões de crédito e débito com diversas bandeiras suportadas pela integração.
 
-Apresentação pública resumida do projeto privado **Checkout-Payzen**. Não inclui tokens, credenciais, parâmetros de ambientes, dados de cartões ou código-fonte.
+## Tecnologias
+- **HTML, CSS e JavaScript.**
+- **PayZen Krypton Client V4.0.**
+
+## Formatos
+Não há evidência documental de importação CSV, Excel ou geração PDF nesse protótipo.
+
+## Aprendizados de produto
+Experiência de checkout, integração de provedor, ciclo de tokens e tratamento de estados de transação.
+
+> Esta apresentação não divulga tokens, credenciais, parâmetros de ambiente, dados de cartão nem código-fonte.
