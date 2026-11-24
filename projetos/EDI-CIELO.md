@@ -1,13 +1,28 @@
-# EDI — Análise de arquivos de conciliação
+# EDI-Cielo — Dashboard de análise e conciliação
 
-**Tipo:** ferramenta de análise e visualização de informações EDI.
+**Categoria:** Meios de pagamento / processamento de arquivos EDI  
+**Visibilidade do código:** Privado
 
-## Propósito
-Facilitar a leitura de arquivos de intercâmbio eletrônico de dados utilizados em processos financeiros, reunindo informações em uma visão mais acessível para análise e conferência.
+## Problema e proposta de valor
+Facilitar a leitura e análise de arquivos EDI da Cielo (versão 5), convertendo informações técnicas em tabelas e indicadores para conferência operacional.
 
-## Competências demonstradas
-- Conhecimento do ecossistema de pagamentos e conciliação.
-- Organização e interpretação de dados transacionais.
-- Tradução de necessidades operacionais em interfaces de análise.
+## Funcionalidades documentadas
+- **Importação de arquivos EDI** por *drag-and-drop* ou seleção manual.
+- Processamento e visualização dos dados.
+- **Dashboard com tabelas e indicadores**.
+- **Exportação dos dados processados**, sem formato especificado na documentação original.
 
-Apresentação pública resumida do projeto privado **EDI-Cielo**. Não inclui layouts internos, arquivos de clientes, exemplos de transações reais ou código-fonte.
+## Tecnologias e formatos
+| Área | Tecnologia ou recurso |
+| --- | --- |
+| Front-end | HTML, CSS e JavaScript |
+| Manipulação de arquivos | SheetJS (xlsx) |
+| Entrada documentada | Arquivos EDI da Cielo v5 |
+| Exportação | Dados processados; formato não confirmado |
+| Importação CSV | Não confirmada |
+| Geração PDF | Não confirmada |
+
+## Valor para produto e operações
+Melhoria da visibilidade de dados financeiros e redução da complexidade na análise de arquivos transacionais.
+
+> Apresentação funcional sem arquivos reais, dados de clientes, extratos, credenciais ou código-fonte.
