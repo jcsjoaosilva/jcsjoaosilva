@@ -1,38 +1,44 @@
 # João Silva 👋
 
-**Liderança de Produtos e Projetos | Meios de Pagamento & Fintech | Soluções com IA**
+### Líder de Produtos e Projetos | Fintech & Meios de Pagamento | Produtos desenvolvidos com apoio de IA
 
-Tenho mais de **15 anos de experiência em meios de pagamento**, atuando na interseção entre produtos, tecnologia, operações e negócio. Minha trajetória inclui projetos de Instituição de Pagamento, Pix, integrações via APIs/SDKs, antifraude, conciliação, recebíveis e implantação de soluções financeiras.
+Profissional com **mais de 15 anos em meios de pagamento**, conectando estratégia, produto, engenharia e operações. Experiência em Instituição de Pagamento, Pix, APIs/SDKs, POS, TEF, gateways, antifraude, conciliação e recebíveis.
 
-Meu foco é transformar desafios complexos em produtos úteis, com clareza de prioridades, colaboração entre equipes e responsabilidade pelos resultados.
+Aqui apresento **projetos em que atuei**, com foco em problemas de negócio, recursos implementados e decisões de produto. Parte das soluções utiliza desenvolvimento assistido por Inteligência Artificial.
 
-## 🚀 Portfólio de projetos
+## 🚀 Projetos em destaque
 
-| Projeto | Foco | Apresentação |
-| --- | --- | --- |
-| **ELO — Mensagens Efêmeras** | Produto experimental de comunicação privada e desenvolvimento assistido por IA | [Conhecer o projeto](projetos/ELO.md) |
-| **PricingHub — Precificação** | Simulação de taxas, custos e margens para apoiar decisões comerciais | [Conhecer os projetos](projetos/PRICING.md) |
-| **EDI — Conciliação** | Leitura, análise e visualização de informações EDI | [Conhecer o projeto](projetos/EDI-CIELO.md) |
-| **Checkout — Integrações** | Exploração e validação de fluxos de pagamento | [Conhecer o projeto](projetos/CHECKOUT.md) |
-| **Radar de Vagas** | Agente e ferramenta para organizar e analisar oportunidades profissionais | [Repositório público](https://github.com/jcsjoaosilva/radar-de-vagas) |
-| **WinForge** | Ferramentas de manutenção e diagnóstico do Windows | [Repositório público](https://github.com/jcsjoaosilva/winforge) |
+| Projeto | O que demonstra | Linguagens e recursos | Detalhes |
+| --- | --- | --- | --- |
+| **ELO — Mensagens Efêmeras** | Produto experimental de comunicação e privacidade | React, TypeScript, WebRTC, Cloudflare Workers, Capacitor; convites QR, contatos e mensagens temporárias | [Apresentação](projetos/ELO.md) · [Protótipo](https://elo-mensagens.elo-turn-credenciais.workers.dev/) |
+| **PricingHub — Ciano** | Precificação e análise de rentabilidade em pagamentos | HTML, CSS, JavaScript; simulações MDR, margens, comparação de cenários, **exportação Excel/PDF** | [Apresentação](projetos/PRICING.md) |
+| **PrincingHub — TSA** | Análise de custos operacionais | HTML, CSS, JavaScript; consolidação de custos e **6 KPIs** | [Apresentação](projetos/PRICING-TSA.md) |
+| **EDI-Cielo** | Interpretação de arquivos e indicadores de conciliação | HTML, CSS, JavaScript, SheetJS; **importação EDI**, dashboard e exportação de dados | [Apresentação](projetos/EDI-CIELO.md) |
+| **Checkout-Payzen** | Integração e experimentação da jornada de pagamentos | HTML, CSS, JavaScript, PayZen Krypton; configuração de formulário, troca de token e status de transação | [Apresentação](projetos/CHECKOUT.md) |
 
-### 🔐 Privacidade dos projetos
-Os projetos ELO, PricingHub, EDI-Cielo e Checkout-Payzen são mantidos em **repositórios privados**. Os links acima levam a **apresentações públicas resumidas**, não aos códigos-fonte, configurações internas ou dados comerciais.
+**Sobre formatos:** a exportação **Excel e PDF** está documentada para o PricingHub-Ciano; a importação **EDI** está documentada para EDI-Cielo. Não atribuo importação de CSV ou geração de PDF aos demais projetos sem confirmação.
 
-O **ELO segue em desenvolvimento/homologação e ainda não passou por auditoria independente de segurança**. Não deve ser utilizado em contextos de alto risco.
+## 🛠️ Tecnologias e competências
 
-## 🧭 Experiência e competências
+- **Produto e liderança:** discovery, priorização, alinhamento com stakeholders, entregas de ponta a ponta e melhoria contínua.
+- **Pagamentos:** Pix, integrações via APIs/SDKs, POS/TEF, gateways, MDR, antifraude, conciliação e recebíveis.
+- **Desenvolvimento de aplicações:** JavaScript, TypeScript, HTML, CSS, React e experiências com aplicações web/mobile.
+- **Infraestrutura e comunicação:** Cloudflare Workers, WebRTC, TURN e Capacitor, aplicados ao ELO.
+- **Dados e documentos:** dashboards, leitura de arquivos EDI, exportação Excel/PDF nos projetos indicados.
+- **Inteligência Artificial:** apoio a prototipação, implementação, depuração e testes; decisões e validações permanecem sob responsabilidade humana.
 
-- **Produto e projetos:** liderança, priorização, execução de ponta a ponta e alinhamento com stakeholders.
-- **Pagamentos e fintech:** Pix, POS/TEF, gateways, APIs, SDKs, antifraude e conciliação.
-- **Tecnologia e IA:** prototipação, desenvolvimento assistido por IA, validação funcional e melhoria contínua.
-- **Operações:** implementação de soluções e articulação entre áreas técnicas e de negócio.
+## 🔎 Como apresento meu trabalho
 
-## 🌐 Projeto em desenvolvimento
+Cada projeto tem uma página com **problema, proposta de valor, funcionalidades, tecnologias, formatos de entrada/saída e limites conhecidos**. O objetivo é demonstrar capacidade de conectar necessidades de negócio a produtos e soluções técnicas, sem divulgar propriedade intelectual ou informações sensíveis.
 
-**ELO — demonstração experimental:** https://elo-mensagens.elo-turn-credenciais.workers.dev/
+### 🔐 Segurança, privacidade e limites
+
+- Os repositórios originais de **ELO, PricingHub, EDI-Cielo e Checkout-Payzen permanecem privados**. As páginas acima são apresentações públicas e não contêm códigos-fonte, credenciais ou parâmetros comerciais internos.
+- **ELO está em desenvolvimento/homologação e não passou por auditoria independente.** Não deve ser utilizado para comunicação de alto risco.
+- **Radar de Vagas e WinForge não são projetos de minha autoria**, portanto não integram o portfólio autoral.
 
 ---
 
-*Portfólio de apresentação profissional. Alguns projetos são privados por envolverem soluções e informações de negócio.*
+**Projeto ELO — demonstração experimental:** https://elo-mensagens.elo-turn-credenciais.workers.dev/
+
+*Portfólio profissional: funcionalidades documentadas nos projetos; não implica validação independente de todas as capacidades ou disponibilidade permanente das demonstrações.*
